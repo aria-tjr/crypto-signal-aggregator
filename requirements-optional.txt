@@ -1,0 +1,39 @@
+# Optional, heavier dependencies. Install if you need these capabilities.
+
+# C-backed TA-Lib (requires system library: macOS: `brew install ta-lib`)
+ta-lib==0.4.28
+# pandas-ta may or may not have wheels for your platform/Python version
+# pandas-ta==0.3.14b0
+
+# Advanced ML models
+xgboost==2.0.0
+lightgbm==4.0.0
+tensorflow==2.13.0
+keras==2.13.0
+
+# Time series modeling
+statsmodels==0.14.0
+
+# Social media APIs
+praw==7.7.0
+tweepy==4.14.0
+requests-oauthlib==1.3.0
+
+# NLP & Transformers
+nltk==3.8.1
+textblob==0.17.1
+transformers==4.33.0
+
+# AI APIs
+openai==1.3.0
+google-generativeai==0.3.0
+
+# Databases & caching
+sqlalchemy==2.0.21
+redis==5.0.0
+pymongo==4.6.0
+
+# Web scraping
+beautifulsoup4==4.12.2
+lxml==4.9.3
+selenium==4.14.0

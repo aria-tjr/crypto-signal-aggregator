@@ -1,0 +1,19 @@
+# Minimal requirements to run the Telegram bot and aggregator on Python 3.11+
+python-telegram-bot==20.7
+ccxt>=4.5.5
+aiohttp>=3.9,<4
+
+# Core data stack (compatible with Py3.11)
+numpy>=1.24,<2
+pandas>=2.0,<3
+requests>=2.31,<3
+httpx>=0.24,<0.27
+
+# Technical analysis (pure-python options)
+ta==0.10.2
+# pandas-ta is optional and can be installed manually if needed
+# pandas-ta==0.3.14b0
+
+# Config & logging
+python-dotenv==1.0.0
+colorlog==6.7.0
