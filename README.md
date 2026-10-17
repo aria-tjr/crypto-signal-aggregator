@@ -75,7 +75,7 @@ This repository vendors two MIT-licensed open-source projects. Their original li
 - **`bots/crypto_signal_base/`**: [Crypto-Signal](https://github.com/CryptoSignal/Crypto-Signal), Copyright (c) 2017 Abenezer Mamo, MIT License (see `bots/crypto_signal_base/LICENSE`).
 - **`bots/ta_lib/`**: [ta — Technical Analysis Library in Python](https://github.com/bukosabino/ta) v0.11.0, Copyright 2020 Darío López Padial (Bukosabino), MIT License (see `bots/ta_lib/LICENSE`).
 
-The aggregation layer (`bots/wrapper_*.py` and the top-level orchestration) is original to this repository and covered by the root `LICENSE`.
+Everything outside those two folders (e.g. `bots/wrapper_*.py`, `aggregator/`, `data_fetchers/`, `tg_bot/`) is covered by the root `LICENSE`.
 
 ## ⚠️ Disclaimer
 
