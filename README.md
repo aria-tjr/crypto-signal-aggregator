@@ -68,6 +68,15 @@ docker-compose up -d
 - `requirements-optional.txt` — optional extras (ML, on-chain, etc.)
 - `requirements-dev.txt` — dev / test
 
+## Credits and third-party code
+
+This repository vendors two MIT-licensed open-source projects. Their original licenses are kept in place, and all credit for that code goes to the original authors:
+
+- **`bots/crypto_signal_base/`**: [Crypto-Signal](https://github.com/CryptoSignal/Crypto-Signal), Copyright (c) 2017 Abenezer Mamo, MIT License (see `bots/crypto_signal_base/LICENSE`).
+- **`bots/ta_lib/`**: [ta — Technical Analysis Library in Python](https://github.com/bukosabino/ta) v0.11.0, Copyright 2020 Darío López Padial (Bukosabino), MIT License (see `bots/ta_lib/LICENSE`).
+
+Everything outside those two folders (e.g. `bots/wrapper_*.py`, `aggregator/`, `data_fetchers/`, `tg_bot/`) is covered by the root `LICENSE`.
+
 ## ⚠️ Disclaimer
 
 This software is provided **for educational and research purposes only** and is **not** financial advice. Aggregated signals are algorithmic opinions drawn from public data and may be wrong. Trading cryptocurrency futures carries substantial risk of loss including leveraged liquidation. The author assumes no liability for losses arising from use of this software.
